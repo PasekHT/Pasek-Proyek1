@@ -39,7 +39,7 @@ function Header() {
   return (
             <>
                   
-      <header className="bg-black text-white p-4 flex items-center sticky top-0">
+      <header className="bg-black text-white p-4 flex items-center sticky top-0 z-50">
         <button onClick={toggleSidebar} className="text-2xl mr-4 cursor-pointer">
           ☰
         </button>
@@ -53,7 +53,7 @@ function Header() {
       
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 h-full w-64 bg-black text-white
+        className={`fixed top-0 left-0 h-full w-64 bg-black text-white z-50
         transform ${isOpen ? "translate-x-0" : "-translate-x-full"}
         transition-transform duration-300`}
       >

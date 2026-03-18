@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Router>
-<Header /> {/* Header muncul di semua halaman */}
+<Header  className/> {/* Header muncul di semua halaman */}
 <main className='min-h-screen '>
 <Routes>
 <Route path="/" element={<Home />} />

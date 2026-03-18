@@ -103,7 +103,7 @@ function Home() {
   };
   return (
         <div className=''>
-      <main className='flex-1 flex justify-center items-'>
+      <main className='flex-1 flex justify-center '>
         <div className="w-full max-w-xl ">
             <div className="border-b">
                 {/* Header */}
@@ -124,7 +124,7 @@ function Home() {
       {/* Container */}
       <div className="
         relative 
-        w-full 
+        w-full md:w-3/4
         max-w-xl 
         h-64 sm:h-80 md:h-96 
         overflow-hidden 
